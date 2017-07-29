@@ -7,4 +7,5 @@ pipeline:
       - echo $PASSWORD
       - go test
     when:
+      branch: [ develop ]
       status: [ success ]
