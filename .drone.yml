@@ -7,4 +7,4 @@ pipeline:
       - echo $PASSWORD
       - go test
     when:
-      status: [ failure ]
+      status: [ failure, success ]
