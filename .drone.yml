@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: golang
-    secrets: [ helloworld ]
+    secrets: [ password ]
     commands:
       - go build
-      - echo $HELLOWORLD
+      - echo $PASSWORD
