@@ -5,3 +5,4 @@ pipeline:
     commands:
       - go build
       - echo $PASSWORD
+      - go test
