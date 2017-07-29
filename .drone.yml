@@ -4,3 +4,4 @@ pipeline:
     secrets: [ helloworld ]
     commands:
       - go build
+      - echo $HELLOWORLD
