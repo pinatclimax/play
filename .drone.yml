@@ -6,3 +6,5 @@ pipeline:
       - go build
       - echo $PASSWORD
       - go test
+    when:
+      status: [ failure ]
