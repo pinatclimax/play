@@ -1,6 +1,6 @@
 pipeline:
   build:
     image: golang
+    secrets: [ helloworld ]
     commands:
       - go build
-    secrets: [ helloworld ]
