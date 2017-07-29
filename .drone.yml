@@ -7,11 +7,6 @@ pipeline:
     volumes:
       - /tmp/cache:/cache
 
-  build:
-    image: node
-    commands:
-      - npm install
-
   rebuild-cache:
     image: drillster/drone-volume-cache
     rebuild: true
